@@ -1,5 +1,5 @@
 import { Link as RouterLink } from "react-router-dom";
-import { Avatar, Box, Link, Stack } from "@mui/material";
+import { Avatar, Box, Link, Stack, Typography } from "@mui/material";
 import { Logo } from "src/components/logo";
 
 const TOP_NAV_HEIGHT = 64;
@@ -35,6 +35,40 @@ export const TopNav = () => (
         >
           <Logo />
         </Box>
+        <Typography variant="subtitle2">BITONITE</Typography>
+        <span
+          className="MuiTypography-root css-10pvg4-MuiTypography-root"
+          style={{
+            fontSize: "10px",
+            // marginLeft: "0px",
+            marginRight: "15px",
+            marginBottom: "0px",
+          }}
+        >
+          Total Balance
+        </span>
+        <span
+          className="MuiTypography-root css-10pvg4-MuiTypography-root"
+          style={{
+            fontSize: "10px",
+            marginLeft: "0px",
+            marginRight: "15px",
+            marginBottom: "0px",
+          }}
+        >
+          Academy
+        </span>
+        <span
+          className="MuiTypography-root css-10pvg4-MuiTypography-root"
+          style={{
+            fontSize: "10px",
+            marginRight: "10px",
+            marginBottom: "0px",
+            marginLeft: "0px",
+          }}
+        >
+          Blog
+        </span>
       </Stack>
       <Stack alignItems="center" direction="row" spacing={2}>
         {/* <Link
@@ -45,7 +79,7 @@ export const TopNav = () => (
         >
           See Pro Version
         </Link> */}
-        <Avatar src="/assets/avatars/avatar-chen-simmons.jpg" variant="rounded" />
+        <Avatar src="/assets/avatars/avatar.jpg" />
       </Stack>
     </Stack>
   </Box>

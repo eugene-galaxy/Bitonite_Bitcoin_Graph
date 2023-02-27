@@ -78,12 +78,7 @@ const useChartOptions = (chartCategory) => {
     },
   };
 };
-const chartSeries1 = [
-  {
-    data: [10, 20, 30, 40, 50, 60],
-    name: "Revenue",
-  },
-];
+
 let stats = [
   {
     label: "24h",

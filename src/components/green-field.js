@@ -1,6 +1,6 @@
 import PropTypes from "prop-types";
 import { useTheme } from "@mui/material/styles";
-
+import MovingIcon from "@mui/icons-material/Moving";
 const GreenField = (props) => {
   const {
     color: colorProp = "primary",
@@ -85,6 +85,7 @@ const GreenField = (props) => {
                 marginLeft: "0px",
                 marginBottom: "0px",
                 color: isActive == true ? "#087055" : "",
+                overflowWrap: "anywhere",
               }}
             >
               {current_cost}
@@ -101,8 +102,11 @@ const GreenField = (props) => {
                   background: "#08705570",
                   color: "#087055",
                   borderRadius: "20px",
+                  display: "flex",
+                  alignItems: "center",
                 }}
               >
+                <MovingIcon sx={{ fontSize: "large", marginRight: "2px" }} />
                 {plus_cost}
               </span>
             )}

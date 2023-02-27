@@ -3,6 +3,7 @@ import { Helmet } from "react-helmet-async";
 import { Box, Container, Stack, Typography, Unstable_Grid2 as Grid } from "@mui/material";
 import { OverviewKpi } from "src/sections/overview/overview-kpi";
 import { OverviewSummary } from "src/sections/overview/overview-summary";
+import MovingIcon from "@mui/icons-material/Moving";
 import GreenField from "../components/green-field";
 import axios from "axios";
 const Page = () => {
@@ -104,7 +105,7 @@ const Page = () => {
                       className="MuiTypography-root MuiTypography-h6 css-1m7jvl4-MuiTypography-root"
                       style={{ margin: "auto", marginLeft: "0px", marginBottom: "0px" }}
                     >
-                      {"$23,996.20"}
+                      {"$" + bitcoinPrice}
                     </h6>
                     <span
                       className="MuiTypography-root css-10pvg4-MuiTypography-root"
@@ -117,8 +118,11 @@ const Page = () => {
                         background: "#08705570",
                         color: "#087055",
                         borderRadius: "20px",
+                        display: "flex",
+                        alignItems: "center",
                       }}
                     >
+                      <MovingIcon sx={{ fontSize: "large", marginRight: "2px" }} />
                       {"+$102,90 (5.13%) today"}
                     </span>
                   </div>
