@@ -97,24 +97,6 @@ const Page = () => (
                 xs={12}
                 md={8}
               >
-                <Card>
-                  <Stack
-                    spacing={3}
-                    sx={{ p: 3 }}
-                  >
-                    {[
-                      'body1',
-                      'body2',
-                      'subtitle1',
-                      'subtitle2',
-                      'overline',
-                      'caption'
-                    ].map((variant) => (
-                      <Typography
-                        key={variant}
-                        sx={{ textTransform: variant !== 'overline' && 'capitalize' }}
-                        variant={variant}
-                      >
     </Box> */}
   </>
 );
