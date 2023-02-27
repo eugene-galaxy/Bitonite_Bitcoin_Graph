@@ -38,23 +38,6 @@ const Page = () => (
                 xs={12}
                 md={4}
               >
-                <Stack spacing={1}>
-                  <Typography variant="h6">
-                    Headings
-                  </Typography>
-                  <Typography
-                    color="text.secondary"
-                    variant="body2"
-                  >
-                    We use
-                    {' '}
-                    <Link
-                      color="primary"
-                      href="https://fonts.google.com/specimen/Inter"
-                      target="_blank"
-                      variant="inherit"
-                    >
-                      Inter
                     </Link>
                     {' '}
                     as our main font name for all our components.
