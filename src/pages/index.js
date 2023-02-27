@@ -85,7 +85,7 @@ const Page = () => {
                     title="Today's Change"
                     description={null}
                     current_cost="+$102,90"
-                    plus_cost="+$102,90 (5.13%) today"
+                    plus_cost="(5.13%) today"
                     isActive={true}
                   />
                 </Grid>
@@ -97,23 +97,41 @@ const Page = () => {
               </div>
               <div>
                 <div style={{ height: "100%", display: "grid" }}>
-                  <span className="MuiTypography-root css-10pvg4-MuiTypography-root">
-                    {"Live Price"}
+                  <span
+                    style={{
+                      margin: "0",
+                      fontSize: "14px",
+                      fontWeight: "600",
+                      lineHeight: "1.5",
+                      fontFamily: "Inter,sans-serif",
+                      color: "rgb(102, 112, 133)",
+                    }}
+                  >
+                    Live Price
                   </span>
                   <div style={{ bottom: "0px", display: "grid", justifyContent: "flex-start" }}>
                     <h6
-                      className="MuiTypography-root MuiTypography-h6 css-1m7jvl4-MuiTypography-root"
-                      style={{ margin: "auto", marginLeft: "0px", marginBottom: "0px" }}
+                      style={{
+                        margin: "auto",
+                        marginLeft: "0px",
+                        marginBottom: "0px",
+                        fontSize: "16px",
+                        fontWeight: "600",
+                        lineHeight: "1.5",
+                        fontFamily: "Inter,sans-serif",
+                      }}
                     >
                       {"$" + bitcoinPrice}
                     </h6>
                     <span
-                      className="MuiTypography-root css-10pvg4-MuiTypography-root"
                       style={{
-                        fontSize: "10px",
                         margin: "auto",
                         marginLeft: "0px",
                         marginBottom: "0px",
+                        fontSize: "10px",
+                        fontWeight: "600",
+                        lineHeight: "1.5",
+                        fontFamily: "Inter,sans-serif",
                         padding: "1px 10px",
                         background: "#08705570",
                         color: "#087055",

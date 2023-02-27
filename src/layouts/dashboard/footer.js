@@ -36,10 +36,10 @@ export const Footer = () => (
         },
       }}
     >
-      <Typography color="text.secondary" variant="caption">
+      {/* <Typography color="text.secondary" variant="caption">
         © 2023 Brice Eugene
-      </Typography>
-      <Box sx={{ flexGrow: 1 }} />
+      </Typography> */}
+      {/* <Box sx={{ flexGrow: 1 }} />
       {items.map((link, index) => (
         <Link
           color="text.secondary"
@@ -51,7 +51,7 @@ export const Footer = () => (
         >
           {link.label}
         </Link>
-      ))}
+      ))} */}
     </Container>
   </div>
 );

@@ -57,8 +57,15 @@ const GreenField = (props) => {
           }}
         >
           <span
-            className="MuiTypography-root MuiTypography-overline css-10pvg4-MuiTypography-root"
-            style={{ textDecoration: "underline", cursor: "pointer" }}
+            style={{
+              margin: "0",
+              fontSize: "16px",
+              fontWeight: "600",
+              lineHeight: "1.5",
+              fontFamily: "Inter,sans-serif",
+              color: "rgb(102, 112, 133)",
+              textDecoration: "underline",
+            }}
           >
             {title}
           </span>
@@ -79,20 +86,22 @@ const GreenField = (props) => {
           )}
           <div style={{ bottom: "0px", display: "grid", justifyContent: "flex-start" }}>
             <h6
-              className="MuiTypography-root MuiTypography-h6 css-1m7jvl4-MuiTypography-root"
               style={{
                 margin: "auto",
                 marginLeft: "0px",
                 marginBottom: "0px",
-                color: isActive == true ? "#087055" : "",
+                fontSize: "16px",
+                fontWeight: "600",
+                lineHeight: "1.5",
+                fontFamily: "Inter,sans-serif",
                 overflowWrap: "anywhere",
+                color: isActive == true ? "#087055" : "",
               }}
             >
               {current_cost}
             </h6>
-            {plus_cost === null || plus_cost === "" ? null : (
+            {plus_cost && (
               <span
-                className="MuiTypography-root MuiTypography-overline css-10pvg4-MuiTypography-root"
                 style={{
                   fontSize: "10px",
                   margin: "auto",
@@ -108,6 +117,21 @@ const GreenField = (props) => {
               >
                 <MovingIcon sx={{ fontSize: "large", marginRight: "2px" }} />
                 {plus_cost}
+              </span>
+            )}
+            {sub_cost && (
+              <span
+                style={{
+                  fontSize: "10px",
+                  margin: "auto",
+                  marginLeft: "0px",
+                  marginTop: "5px",
+                  color: "rgb(102, 112, 133)",
+                  display: "flex",
+                  alignItems: "center",
+                }}
+              >
+                {sub_cost}
               </span>
             )}
           </div>

@@ -37,34 +37,40 @@ export const TopNav = () => (
         </Box>
         <Typography variant="subtitle2">BITONITE</Typography>
         <span
-          className="MuiTypography-root css-10pvg4-MuiTypography-root"
           style={{
-            fontSize: "10px",
-            // marginLeft: "0px",
             marginRight: "15px",
             marginBottom: "0px",
+            fontSize: "10px",
+            fontWeight: "600",
+            lineHeight: "1.5",
+            fontFamily: "Inter,sans-serif",
+            color: "rgb(102, 112, 133)",
           }}
         >
           Total Balance
         </span>
         <span
-          className="MuiTypography-root css-10pvg4-MuiTypography-root"
           style={{
-            fontSize: "10px",
-            marginLeft: "0px",
             marginRight: "15px",
             marginBottom: "0px",
+            fontSize: "10px",
+            fontWeight: "600",
+            lineHeight: "1.5",
+            fontFamily: "Inter,sans-serif",
+            color: "rgb(102, 112, 133)",
           }}
         >
           Academy
         </span>
         <span
-          className="MuiTypography-root css-10pvg4-MuiTypography-root"
           style={{
-            fontSize: "10px",
-            marginRight: "10px",
+            marginRight: "15px",
             marginBottom: "0px",
-            marginLeft: "0px",
+            fontSize: "10px",
+            fontWeight: "600",
+            lineHeight: "1.5",
+            fontFamily: "Inter,sans-serif",
+            color: "rgb(102, 112, 133)",
           }}
         >
           Blog

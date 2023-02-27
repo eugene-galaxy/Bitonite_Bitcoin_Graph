@@ -8,7 +8,7 @@ import { SvgIcon } from "@mui/material";
 
 export const items = [
   {
-    href: "/",
+    href: "/dashboard",
     icon: (
       <SvgIcon>
         <ChartPieIcon />
@@ -26,7 +26,7 @@ export const items = [
     label: "Portfolio",
   },
   {
-    href: "/settings",
+    href: "/",
     icon: (
       <SvgIcon>
         <CogIcon />
