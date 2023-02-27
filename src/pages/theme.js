@@ -115,16 +115,6 @@ const Page = () => (
                         sx={{ textTransform: variant !== 'overline' && 'capitalize' }}
                         variant={variant}
                       >
-                        {variant}
-                      </Typography>
-                    ))}
-                  </Stack>
-                </Card>
-              </Grid>
-            </Grid>
-          </div>
-        </Stack>
-      </Container>
     </Box> */}
   </>
 );
