@@ -91,14 +91,6 @@ export const TopNav = () => (
         </span>
       </Stack>
       <Stack alignItems="center" direction="row" spacing={2}>
-        {/* <Link
-          color="inherit"
-          href="https://mui.com/store/items/carpatin-dashboard"
-          target="_blank"
-          variant="body2"
-        >
-          See Pro Version
-        </Link> */}
         <AllInboxOutlinedIcon sx={{ color: "rgb(102, 112, 133)", fontSize: "large" }} />
         <Avatar src="/assets/avatars/avatar.jpg" sx={{ width: "30px", height: "30px" }} />
       </Stack>
