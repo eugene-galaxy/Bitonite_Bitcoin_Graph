@@ -37,7 +37,7 @@ export const Footer = () => (
       }}
     >
       <Typography color="text.secondary" variant="caption">
-        © 2023 Devias
+        © 2023 Brice Eugene
       </Typography>
       <Box sx={{ flexGrow: 1 }} />
       {items.map((link, index) => (
