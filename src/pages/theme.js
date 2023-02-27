@@ -14,25 +14,7 @@ const Page = () => (
     {/* <Helmet>
       <title>
         Theme | Carpatin Free
-      </title>
-    </Helmet>
-    <Box
-      sx={{
-        flexGrow: 1,
-        py: 8
-      }}
-    >
-      <Container maxWidth="xl">
-        <Stack spacing={3}>
-          <div>
-            <Typography variant="h4">
-              Typography
-            </Typography>
-          </div>
-          <div>
-            <Grid
-              container
-              spacing={3}
+
             >
               <Grid
                 xs={12}
