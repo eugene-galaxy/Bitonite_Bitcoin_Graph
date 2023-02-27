@@ -85,7 +85,7 @@ export const TopNav = () => (
         >
           See Pro Version
         </Link> */}
-        <Avatar src="/assets/avatars/avatar.jpg" />
+        <Avatar src="/assets/avatars/avatar.jpg" sx={{ width: "30px", height: "30px" }} />
       </Stack>
     </Stack>
   </Box>

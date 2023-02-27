@@ -23,7 +23,7 @@ export const SideNav = () => {
           display: "flex",
           flexDirection: "column",
           height: `calc(100% - ${TOP_NAV_HEIGHT}px)`,
-          p: 2,
+          p: 1.5,
           top: TOP_NAV_HEIGHT,
           width: SIDE_NAV_WIDTH,
           zIndex: (theme) => theme.zIndex.appBar - 100,
@@ -43,7 +43,7 @@ export const SideNav = () => {
               sx={{
                 flexDirection: "row",
                 px: 2,
-                py: 1.5,
+                py: 0.8,
               }}
             >
               <ListItemIcon
