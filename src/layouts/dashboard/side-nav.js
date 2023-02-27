@@ -30,6 +30,20 @@ export const SideNav = () => {
         },
       }}
     >
+      <span
+        style={{
+          // margin: "auto",
+          marginLeft: "10px",
+          // marginBottom: "0px",
+          fontSize: "10px",
+          fontWeight: "600",
+          lineHeight: "1.5",
+          fontFamily: "Inter,sans-serif",
+          color: "rgb(102, 112, 133)",
+        }}
+      >
+        NAVIGATION
+      </span>
       <List sx={{ width: "100%" }}>
         {items.map((item, index) => {
           const active = matchPath({ path: item.href, end: true }, location.pathname);
@@ -206,7 +220,7 @@ export const SideNav = () => {
             color: "rgb(102, 112, 133)",
           }}
         >
-          © 2023 Bitonite. Version 1.01 Bitonite is used to under license.
+          © 2023 Bitonite. Version 1.01 Bitonite is used under license.
         </span>
       </div>
     </Drawer>

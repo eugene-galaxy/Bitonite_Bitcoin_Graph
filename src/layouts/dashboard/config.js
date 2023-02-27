@@ -5,7 +5,7 @@ import ExclamationTriangleIcon from "@heroicons/react/24/solid/ExclamationTriang
 import ShoppingCartIcon from "@heroicons/react/24/solid/SquaresPlusIcon";
 import StarIcon from "@heroicons/react/24/solid/RectangleStackIcon";
 import { SvgIcon } from "@mui/material";
-
+import SignalCellularAltOutlinedIcon from "@mui/icons-material/SignalCellularAltOutlined";
 export const items = [
   {
     href: "/dashboard",
@@ -29,7 +29,7 @@ export const items = [
     href: "/",
     icon: (
       <SvgIcon>
-        <CogIcon />
+        <SignalCellularAltOutlinedIcon />
       </SvgIcon>
     ),
     label: "Stats",

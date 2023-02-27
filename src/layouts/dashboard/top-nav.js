@@ -1,7 +1,8 @@
 import { Link as RouterLink } from "react-router-dom";
 import { Avatar, Box, Link, Stack, Typography } from "@mui/material";
 import { Logo } from "src/components/logo";
-
+import AllInboxOutlinedIcon from "@mui/icons-material/AllInboxOutlined";
+import InboxOutlinedIcon from "@mui/icons-material/InboxOutlined";
 const TOP_NAV_HEIGHT = 64;
 
 export const TopNav = () => (
@@ -47,7 +48,7 @@ export const TopNav = () => (
             color: "rgb(102, 112, 133)",
           }}
         >
-          Total Balance
+          Portal
         </span>
         <span
           style={{
@@ -75,6 +76,19 @@ export const TopNav = () => (
         >
           Blog
         </span>
+        <span
+          style={{
+            marginRight: "15px",
+            marginBottom: "0px",
+            fontSize: "10px",
+            fontWeight: "600",
+            lineHeight: "1.5",
+            fontFamily: "Inter,sans-serif",
+            color: "rgb(102, 112, 133)",
+          }}
+        >
+          ...
+        </span>
       </Stack>
       <Stack alignItems="center" direction="row" spacing={2}>
         {/* <Link
@@ -85,6 +99,7 @@ export const TopNav = () => (
         >
           See Pro Version
         </Link> */}
+        <AllInboxOutlinedIcon sx={{ color: "rgb(102, 112, 133)", fontSize: "large" }} />
         <Avatar src="/assets/avatars/avatar.jpg" sx={{ width: "30px", height: "30px" }} />
       </Stack>
     </Stack>
