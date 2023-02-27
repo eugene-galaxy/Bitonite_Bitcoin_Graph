@@ -70,25 +70,7 @@ const Page = () => (
                 md={8}
               >
                 <Card>
-                  <Stack
-                    spacing={3}
-                    sx={{ p: 3 }}
-                  >
-                    {['h1', 'h2', 'h3', 'h4', 'h5', 'h6'].map((variant) => (
-                      <Typography
-                        key={variant}
-                        variant={variant}
-                      >
-                        Heading
-                      </Typography>
-                    ))}
-                  </Stack>
-                </Card>
-              </Grid>
-              <Grid
-                xs={12}
-                md={4}
-              >
+
                 <Typography variant="h6">
                   Body
                 </Typography>
