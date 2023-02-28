@@ -91,8 +91,8 @@ export const TopNav = () => (
         </span>
       </Stack>
       <Stack alignItems="center" direction="row" spacing={2}>
-        <AllInboxOutlinedIcon sx={{ color: "rgb(102, 112, 133)", fontSize: "large" }} />
-        <Avatar src="/assets/avatars/avatar.jpg" sx={{ width: "30px", height: "30px" }} />
+        {/* <AllInboxOutlinedIcon sx={{ color: "rgb(102, 112, 133)", fontSize: "large" }} />
+        <Avatar src="/assets/avatars/avatar.jpg" sx={{ width: "30px", height: "30px" }} /> */}
       </Stack>
     </Stack>
   </Box>
