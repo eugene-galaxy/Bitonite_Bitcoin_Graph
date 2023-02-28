@@ -28,11 +28,11 @@ export const TopNav = () => (
         <Box
           component={RouterLink}
           to="/"
-          sx={{
-            display: "inline-flex",
-            height: 24,
-            width: 24,
-          }}
+          // sx={{
+          //   display: "inline-flex",
+          //   height: 24,
+          //   width: 24,
+          // }}
         >
           <Logo />
         </Box>
