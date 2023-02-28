@@ -8,13 +8,13 @@ const TOP_NAV_HEIGHT = 64;
 export const TopNav = () => (
   <Box
     component="header"
-    // sx={{
-    //   backgroundColor: "neutral.top_nav",
-    //   color: "common.white",
-    //   position: "fixed",
-    //   width: "100%",
-    //   zIndex: (theme) => theme.zIndex.appBar,
-    // }}
+    sx={{
+      backgroundColor: "neutral.top_nav",
+      color: "common.white",
+      position: "fixed",
+      width: "100%",
+      zIndex: (theme) => theme.zIndex.appBar,
+    }}
   >
     <Stack
       direction="row"
