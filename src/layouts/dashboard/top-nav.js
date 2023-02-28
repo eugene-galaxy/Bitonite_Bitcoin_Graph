@@ -37,7 +37,7 @@ export const TopNav = () => (
           <Logo />
         </Box>
         <Typography variant="subtitle2">BITONITE</Typography>
-        <span
+        {/* <span
           style={{
             marginRight: "15px",
             marginBottom: "0px",
@@ -49,7 +49,7 @@ export const TopNav = () => (
           }}
         >
           Portal
-        </span>
+        </span> */}
         <span
           style={{
             marginRight: "15px",
@@ -91,8 +91,8 @@ export const TopNav = () => (
         </span>
       </Stack>
       <Stack alignItems="center" direction="row" spacing={2}>
-        {/* <AllInboxOutlinedIcon sx={{ color: "rgb(102, 112, 133)", fontSize: "large" }} />
-        <Avatar src="/assets/avatars/avatar.jpg" sx={{ width: "30px", height: "30px" }} /> */}
+        <AllInboxOutlinedIcon sx={{ color: "rgb(102, 112, 133)", fontSize: "large" }} />
+        <Avatar src="/assets/avatars/avatar.jpg" sx={{ width: "30px", height: "30px" }} />
       </Stack>
     </Stack>
   </Box>
