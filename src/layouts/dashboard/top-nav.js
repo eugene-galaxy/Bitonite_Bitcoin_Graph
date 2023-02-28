@@ -37,7 +37,7 @@ export const TopNav = () => (
           <Logo />
         </Box>
         <Typography variant="subtitle2">BITONITE</Typography>
-        {/* <span
+        <span
           style={{
             marginRight: "15px",
             marginBottom: "0px",
@@ -49,7 +49,7 @@ export const TopNav = () => (
           }}
         >
           Portal
-        </span> */}
+        </span>
         <span
           style={{
             marginRight: "15px",
