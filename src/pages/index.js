@@ -123,7 +123,7 @@ const Page = () => {
                     >
                       {"$" + bitcoinPrice}
                     </h6>
-                    <span
+                    {/* <span
                       style={{
                         margin: "auto",
                         marginLeft: "0px",
@@ -139,7 +139,7 @@ const Page = () => {
                         display: "flex",
                         alignItems: "center",
                       }}
-                    >
+                    > */}
                       <MovingIcon sx={{ fontSize: "large", marginRight: "2px" }} />
                       {"+$102,90 (5.13%) today"}
                     </span>
