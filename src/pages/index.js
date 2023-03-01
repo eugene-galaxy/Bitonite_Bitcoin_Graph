@@ -71,7 +71,7 @@ const Page = () => {
                     sub_cost={null}
                   />
                 </Grid>
-                <Grid sm={12} md={3}>
+                {/* <Grid sm={12} md={3}>
                   <GreenField
                     title="24h Volume"
                     description="A measure of how much of a cryptocurrency was traded in the last 24 hours."
@@ -79,7 +79,7 @@ const Page = () => {
                     plus_cost={null}
                     sub_cost="1,292,892 BTC"
                   />
-                </Grid>
+                </Grid> */}
                 <Grid sm={12} md={3}>
                   <GreenField
                     title="Today's Change"
