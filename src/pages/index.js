@@ -154,9 +154,7 @@ const Page = () => {
                 </Grid>
               </div>
             </div>
-            <div>
-              <Typography variant="h4">BTC to USD Converter</Typography>
-            </div>
+            <div>{/* <Typography variant="h4">BTC to USD Converter</Typography> */}</div>
             <Grid container>
               <Grid xs={12} md={4}>
                 <OverviewSummary
