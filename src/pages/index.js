@@ -141,7 +141,7 @@ const Page = () => {
                       }}
                     >
                       <MovingIcon sx={{ fontSize: "large", marginRight: "2px" }} />
-                      {/* {"+$102,90 (5.13%) today"} */}
+                      {"+$102,90 (5.13%) today"}
                     </span>
                   </div>
                 </div>
