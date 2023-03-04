@@ -74,7 +74,7 @@ export const TopNav = () => (
             color: "rgb(102, 112, 133)",
           }}
         >
-          Blog
+          {/* Blog */}
         </span>
         <span
           style={{
