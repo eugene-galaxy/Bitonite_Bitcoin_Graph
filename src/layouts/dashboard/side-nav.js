@@ -204,7 +204,7 @@ export const SideNav = () => {
                 color: "rgb(102, 112, 133)",
               }}
             >
-              {/* ~${!visible ? "*******" : status === "total" ? "25052.15" : "22656.42"} */}
+              ~${!visible ? "*******" : status === "total" ? "25052.15" : "22656.42"}
             </span>
           </div>
         </div>
