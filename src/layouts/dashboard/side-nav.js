@@ -119,7 +119,7 @@ export const SideNav = () => {
                   display: "flex",
                   alignItems: "center",
                   borderRadius: "10px",
-                  marginRight: "3px",
+                  // marginRight: "3px",
                   cursor: "pointer",
                 }}
                 onClick={() => setVisible((previous) => !previous)}
@@ -139,7 +139,7 @@ export const SideNav = () => {
                   marginRight: "3px",
                   cursor: "pointer",
                 }}
-                // onMouseOver="this.style.backgroundColor='rgba(255, 255, 255, 0.9)"
+                // onMouseOver="this.style.backgroundColor='rgba(255, 255, 255, 0.9)"  
                 onClick={() => setStatus("total")}
               >
                 <KeyboardArrowLeftIcon sx={{ fontSize: "large" }} />
