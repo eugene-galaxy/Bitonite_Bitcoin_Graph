@@ -119,7 +119,7 @@ export const SideNav = () => {
                   display: "flex",
                   alignItems: "center",
                   borderRadius: "10px",
-                  // marginRight: "3px",
+                  marginRight: "3px",
                   cursor: "pointer",
                 }}
                 onClick={() => setVisible((previous) => !previous)}
