@@ -98,7 +98,7 @@ export const SideNav = () => {
               display: "flex",
               justifyContent: "space-between",
               marginBottom: "10px",
-              // height: "100%",
+              height: "100%",
             }}
           >
             <span
@@ -139,7 +139,7 @@ export const SideNav = () => {
                   marginRight: "3px",
                   cursor: "pointer",
                 }}
-                // onMouseOver="this.style.backgroundColor='rgba(255, 255, 255, 0.9)"  
+                // onMouseOver="this.style.backgroundColor='rgba(255, 255, 255, 0.9)"
                 onClick={() => setStatus("total")}
               >
                 <KeyboardArrowLeftIcon sx={{ fontSize: "large" }} />
