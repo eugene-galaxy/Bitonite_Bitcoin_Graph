@@ -110,7 +110,7 @@ export const SideNav = () => {
                 fontFamily: "Inter,sans-serif",
               }}
             >
-              {"Wallet"}
+              {/* {"Wallet"} */}
             </span>
             <div style={{ height: "100%", display: "flex", alignItems: "center" }}>
               <div
