@@ -66,7 +66,7 @@ export const SideNav = () => {
                   color: active ? "primary.main" : "neutral.400",
                 }}
               >
-                {/* {item.icon} */}
+                {item.icon}
               </ListItemIcon>
               <ListItemText
                 primary={item.label}
