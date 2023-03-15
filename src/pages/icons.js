@@ -39,7 +39,7 @@ const Page = () => (
                 <Stack spacing={1}>
                   <Typography variant="h6">Hero Icons</Typography>
                   <Typography color="text.secondary" variant="body2">
-                    We use{" "}
+                    {/* We use{" "} */}
                     <Link
                       color="primary"
                       href="https://heroicons.com"
