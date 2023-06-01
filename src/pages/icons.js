@@ -47,7 +47,7 @@ const Page = () => (
                       variant="inherit"
                     >
                       Hero Icons
-                    {/* </Link>{" "} */}
+                    </Link>{" "}
                     for displaying icons as we think it reflects the clean and light style of the
                     Carpatin Design System.
                   </Typography>
